@@ -2,6 +2,7 @@ import './App.css';
 import MyImageInsrc from "./imageInSrc.jpg";
 import React from 'react';
 import { Player } from 'video-react';
+
 import './style.css'
 
 
@@ -18,12 +19,17 @@ function App() {
         
       </img>
 
-     </div>
+     </div >
+     
      <video width="750" height="500" controls >
-      <source src={"React Bootstrap Tutorial.mp4"} type="video/mp4"/>
+     <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
      </video>
+     
+     
     </>
+     
       
+    
   );
 }
 
